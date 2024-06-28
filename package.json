@@ -1,0 +1,21 @@
+{
+  "name": "ton-contract-tg-bot",
+  "packageManager": "yarn@4.3.1",
+  "devDependencies": {
+    "@swc/core": "^1.6.5",
+    "@types/node": "^20.14.9",
+    "@types/qs": "^6.9.15",
+    "qs": "^6.12.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.2"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "telegraf": "^4.16.3",
+    "ton-core": "^0.53.0",
+    "ton-crypto": "^3.2.0"
+  },
+  "scripts": {
+    "start": "ts-node ./src/index.ts"
+  }
+}
